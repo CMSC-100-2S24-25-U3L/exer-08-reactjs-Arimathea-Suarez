@@ -2,6 +2,7 @@ import React from "react";
 import "../index.css"; // Import the styles
 
 const Header = () => {
+  // Header for the LAZADO with additional search bar for design only
   return (
     <header className="header">
       <h2>
@@ -9,6 +10,7 @@ const Header = () => {
         <span className="za">ZA</span>
         <span className="do">DO</span>
       </h2>
+
       <div className="search-bar">
         <input
           type="text"

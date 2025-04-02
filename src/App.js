@@ -1,14 +1,16 @@
+// The imports
 import React from "react";
 import Header from "./components/Header";
 import ProductCard from "./components/ProductCard";
 import "./index.css"; // Importing global styles
 
 const App = () => {
-  // Function to handle adding to cart
+  // The function to handle adding to cart
   const handleAddToCart = (productName) => {
     console.log(`Added ${productName} to the cart!`);
   };
 
+  // The name of the headers with the products
   return (
     <div>
       <Header />

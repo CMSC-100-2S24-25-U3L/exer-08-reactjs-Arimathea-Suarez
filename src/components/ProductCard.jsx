@@ -1,6 +1,7 @@
 import React from "react";
 import "../index.css";
 
+// The labels for the different products to be hard-coded
 const ProductCard = ({ name, onAddToCart }) => {
   return (
     <div className="product-card">

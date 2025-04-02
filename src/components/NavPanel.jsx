@@ -1,6 +1,8 @@
 import React from "react";
 import NavButton from "./NavButton";
 
+// The navigation panel for going to different urls
+
 const NavigationPanel = () => {
   const menus = [
     { name: "Appliances", url: "#", id: 1 },
